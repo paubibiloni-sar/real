@@ -1,6 +1,10 @@
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/javascript.js to edit this template
- */
+"use_strict";
+let vidaJugador = 100;
+let decisioJugador = "";
+let escenaActual = 1;
+let objectesInventari = [];
+
+alert("Benvingut a La Cova Misteriosa!");
+
 
 
