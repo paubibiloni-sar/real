@@ -14,18 +14,14 @@ if (decisioJugador == "no") {
 } else {
 
     // Escollir entre riu o cova
-    decisioJugador = prompt(
-        "Vols entrar al riu o a la cova?"
-    );
+    decisioJugador = prompt("Vols entrar al riu o a la cova?");
 
     // CAMÍ DEL RIU
     if (decisioJugador == "riu") {
 
         alert("Trobes un os super agressiu");
 
-        decisioJugador = prompt(
-            "Vols lluitar o correr per la teva vida?"
-        );
+        decisioJugador = prompt("Vols lluitar o correr per la teva vida?");
 
         if (decisioJugador == "lluitar") {
 
@@ -38,14 +34,12 @@ if (decisioJugador == "no") {
             alert("Has trobat la teva tribu, GUANYES");
         }
 
-    // CAMÍ DE LA COVA
+        // CAMÍ DE LA COVA
     } else {
 
         alert("Trobes un ós i has de lluitar");
 
-        decisioJugador = prompt(
-            "Vols donar-li un cop de puny o correr?"
-        );
+        decisioJugador = prompt("Vols donar-li un cop de puny o correr?");
 
         if (decisioJugador == "cop de puny") {
 
