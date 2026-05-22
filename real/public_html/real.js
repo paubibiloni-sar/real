@@ -19,7 +19,7 @@ if (decisioJugador == "no") {
     // CAMÍ DEL RIU
     if (decisioJugador == "riu") {
 
-        alert("Trobes un os super agressiu");
+        alert("Trobes una serp agressiva");
 
         decisioJugador = prompt("Vols lluitar o correr per la teva vida?");
 
@@ -39,7 +39,7 @@ if (decisioJugador == "no") {
 
         alert("Trobes un ós i has de lluitar");
 
-        decisioJugador = prompt("Vols donar-li un cop de puny o correr?");
+        decisioJugador = prompt("Vols donar-li un cop de puny o cossa?");
 
         if (decisioJugador == "cop de puny") {
 
@@ -61,5 +61,5 @@ if (vidaJugador <= 0) {
 
 } else {
 
-    alert("Final bo");
+    alert("Final feliç");
 }
