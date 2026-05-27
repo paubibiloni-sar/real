@@ -1,6 +1,5 @@
 let vidaJugador = 100;
 let decisioJugador = "";
-let objectesInventari = [];
 
 alert("Benvingut a l'aventura!");
 
@@ -55,7 +54,7 @@ if (decisioJugador == "no") {
 }
 
 // Final del joc
-if (vidaJugador <= 0) {
+if (vidaJugador = 0) {
 
     alert("Mors");
 
