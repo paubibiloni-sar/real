@@ -49,16 +49,12 @@ if (decisioJugador == "no") {
 
             alert("L'ós et mata");
             vidaJugador = 0;
+
         }
     }
 }
 
-// Final del joc
-if (vidaJugador = 0) {
+while (vidaJugador == 0) {
 
-    alert("Mors");
-
-} else {
-
-    alert("Final feliç");
+    alert("mors");
 }
